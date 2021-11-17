@@ -34,6 +34,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.portfolio_username -%}
+          <li>
+            <a target="_blank" href="https://{{ site.portfolio_username| cgi_escape | escape }}.vercel.app/" class="button button--sacnite button--round-l">
+              <i class="fas fa-globe" title="portfolio link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.stackoverflow_username -%}
           <li>
             <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">

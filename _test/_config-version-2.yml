@@ -6,7 +6,7 @@ repository: sproogen/modern-resume-theme
 version: 2
 
 # Personal info
-name: Your Name
+name: 박현정
 title: Your job title
 email: test@email.com
 email_title: Email
@@ -20,7 +20,7 @@ darkmode: never
 
 # Social links
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
 stackoverflow_username: "00000001"
 dribbble_username: jekyll
 facebook_username: jekyll
@@ -35,9 +35,9 @@ orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: Test link
-  icon: fab fa-ello
-  url: sproogen.github.io/modern-resume-theme
+  - title: Test link
+    icon: fab fa-ello
+    url: sproogen.github.io/modern-resume-theme
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -62,7 +62,7 @@ content:
         title: Project 1
         link: https://sproogen.github.io/modern-resume-theme
         additional_links:
-          - title:  Github page for project
+          - title: Github page for project
             icon: fab fa-github
             url: sproogen.github.io/modern-resume-theme
         quote: >
@@ -84,7 +84,7 @@ content:
         quote: >
           Short description of the company (optional)
         description: >
-            Description of role
+          Description of role
 
       - layout: top
         title: Company 2
@@ -115,8 +115,6 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
-      ![alt text](_test/images/landscape-trees.jpg "Trees")
-
 # Footer
 footer_show_references: true
 references_title: References on request
@@ -128,7 +126,7 @@ references_title: References on request
 data_dir: _test/_data
 
 include:
- - _test
+  - _test
 
 exclude:
   - vendor
@@ -138,4 +136,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
